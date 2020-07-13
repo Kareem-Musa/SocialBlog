@@ -75,10 +75,12 @@ THIRD_PARTY_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "taggit",
 ]
 
 LOCAL_APPS = [
     "socialblog.users.apps.UsersConfig",
+    "socialblog.blog.apps.BlogConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
